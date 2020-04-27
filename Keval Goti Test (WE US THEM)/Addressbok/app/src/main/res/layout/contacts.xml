@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/nametextView"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:id="@+id/mailtextView"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/nametextView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:id="@+id/phonetextView"
+        android:layout_below="@+id/nametextView"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/nametextView"
+        android:layout_alignStart="@+id/nametextView"
+        android:textColor="#000"/>
+</RelativeLayout>

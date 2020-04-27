@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/imageseven">
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:id="@+id/addcontactButton"
+        android:layout_marginTop="143dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/buttonstyle"
+        android:layout_alignRight="@+id/viewcontactButton"
+        android:layout_alignEnd="@+id/viewcontactButton" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="View Contact"
+        android:background="@drawable/buttonstyle"
+        android:id="@+id/viewcontactButton"
+        android:layout_below="@+id/addcontactButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+
+</RelativeLayout>

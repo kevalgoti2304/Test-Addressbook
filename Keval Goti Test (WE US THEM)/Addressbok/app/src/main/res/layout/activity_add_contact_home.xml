@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactHomeActivity"
+    android:background="@drawable/imageseven">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/addradiogroup"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/familyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Family" />
+
+        <RadioButton
+            android:id="@+id/friendsRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Friends" />
+
+        <RadioButton
+            android:id="@+id/residenceRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Residence" />
+
+        <RadioButton
+            android:id="@+id/collegeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="College" />
+
+        <RadioButton
+            android:id="@+id/othersRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Others" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/submitButton"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/addradiogroup"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
